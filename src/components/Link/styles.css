@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+  color: #585858;
+  width: 100%;
+}
+.link .containerCard {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+.link:hover .containerCard {
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+}

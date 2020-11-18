@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+.paginationItem {
+  display: flex;
+}
+.paginationItem li {
+  margin: 0 4px;
+}
+.paginationItem button {
+  font-weight: 600;
+  color: #585858;
+  cursor: pointer;
+  border: none;
+  padding: 8px 0;
+  width: 48px;
+  border-radius: 6px;
+}
+
+.paginationItem button:hover {
+  background-color: #1e90ff;
+  color: #fff;
+}
+
+.paginationItem .active {
+  background-color: #1e90ff;
+  color: #fff;
+}
